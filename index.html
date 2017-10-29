@@ -42,13 +42,14 @@
                         <img class="" src="assets/images/upload.png" alt="upload"></div>
 
 
-                    <form action="/" class="dropzone center" method="POST">
-                        <p class="dz-message">Tutaj upuść plik lub kliknij</p>
-                        <div class="fallback">
-                            <input name="file" type="file"/>
-                        </div>
-                        <input name="submit" id="btnUpload" type="button" value="wyślij"/>
-                    </form>
+                    <!--<form action="/" class="dropzone center" method="POST">-->
+                    <!--<p class="dz-message">Tutaj upuść plik lub kliknij</p>-->
+                    <!--<div class="fallback">-->
+                    <!--<input name="file" type="file"/>-->
+                    <!--</div>-->
+                    <input name="submit" id="btnUpload" type="button" value="Załaduj plik"/>
+                    <input name="submit" id="send" type="button" value="wyślij"/>
+                    <!--</form>-->
                 </div>
             </div>
         </div>
@@ -133,6 +134,9 @@
         });
 
         $("#btnUpload").click(function () {
+            alert("Plik został pobrany pomyślnie");
+        });
+        $("#send").click(function () {
 
             $('html, body').animate({
                 scrollTop: $("#content").offset().top - 140
