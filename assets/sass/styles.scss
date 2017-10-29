@@ -1,0 +1,46 @@
+// ==================================================================================== [1]
+
+// THEME CONFIG
+
+// global variables, used in mixins and styling
+@import "theme/colors";
+@import "theme/fonts";
+
+
+// ==================================================================================== [2]
+
+// LOAD TOOLS
+
+// mixins - functions make work easier
+@import "tools/mixins";
+
+// grid - breakpoints and column widths,
+// they determine template's behaviour on various screens
+@import "tools/grid";
+
+@import "theme/factories/animations";
+@import "theme/factories/backgrounds";
+@import "theme/factories/buttons";
+@import "theme/factories/headings";
+@import "theme/factories/images";
+@import "theme/factories/paragraphs";
+
+// ==================================================================================== [4]
+
+@import "theme/global";
+
+// ==================================================================================== [5]
+
+
+// STYLES FOR PAGES
+@import "theme/pages/home";
+
+// ==================================================================================== [3]
+
+@import "responsive/desktop";
+@import "responsive/tablet";
+@import "responsive/mobile";
+
+
+
+

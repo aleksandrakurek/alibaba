@@ -1,0 +1,149 @@
+/* General */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  * {
+    position: relative;
+    font-family: $font-lato;
+  }
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+
+ul {
+  list-style: none;
+}
+
+.center-vertical-parent {
+  display: flex;
+  min-height: 125px;
+  align-items: center;
+
+  .center-vertical-child {
+    align-self: center;
+    flex: 1;
+  }
+}
+
+input, textarea {
+  outline: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+/* flex box gallery */
+.responsive-image {
+  max-width: 100%;
+}
+
+.cell {
+  margin: 1rem;
+}
+
+.cell img {
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .cell {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(100% / 3);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .cell {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .cell {
+    width: calc(33.3333% - 2rem);
+  }
+}
+
+/* end flex box gallery */
+
+.main-nav {
+  margin: 20px auto -4px auto;
+  height: 100px;
+  width: 100%;
+  //border-bottom: 5px solid $hover-color;
+  text-align: center;
+  background: $white;
+  display: inline-block;
+
+  ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    li {
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      display: inline-block;
+      .img-wrapper {
+        width: 250px;
+        height: 100px;
+        position: relative;
+        .logo {
+          display: inline-block;
+          width: 200px;
+          z-index: 9999;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          transform: translate(-50%, 0);
+        }
+      }
+      p {
+        font-family: $font-lato;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 16px;
+        color: $grey;
+        white-space: nowrap;
+        margin: 0;
+        line-height: 80px;
+        width: 150px;
+      }
+      &:hover {
+        p {
+          color: $hover-color;
+        }
+      }
+    }
+  }
+}
