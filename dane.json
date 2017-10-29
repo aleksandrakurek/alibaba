@@ -1,0 +1,128 @@
+{
+  "IdAdres": {
+    "0": 22,
+    "1": 42,
+    "2": 42,
+    "3": 42,
+    "4": 43
+  },
+  "UL": {
+    "0": "Zaj\u0119cza",
+    "1": "al. Jana Paw\u0142a II",
+    "2": "JANA PAW\u0141A II",
+    "3": "JANA PAW\u0141A II",
+    "4": "Stanis\u0142awy Wysockiej"
+  },
+  "NR_BUD": {
+    "0": "11",
+    "1": "80",
+    "2": "80",
+    "3": "80",
+    "4": "2A"
+  },
+  "data": {
+    "0": "2016-10-22 06:50:00.000",
+    "1": "2016-10-11 16:10:00.000",
+    "2": "2016-11-19 22:53:00.000",
+    "3": "2016-11-29 11:05:00.000",
+    "4": "2016-12-01 15:30:00.000"
+  },
+  "miejsce": {
+    "0": "ZAKR\u0118T, \u0141UK",
+    "1": "SYGNALIZACJA \u015aWIETLNA - JEST, DZIA\u0141A",
+    "2": "SYGNALIZACJA \u015aWIETLNA - JEST, DZIA\u0141A",
+    "3": "SYGNALIZACJA \u015aWIETLNA - JEST, DZIA\u0141A",
+    "4": "ODCINEK PROSTY"
+  },
+  "typ_miejsc": {
+    "0": "JEZDNIA",
+    "1": "PRZEJ\u015aCIE DLA PIESZYCH",
+    "2": "PRZEJAZD TRAMWAJOWY, TOROWISKO TRAMWAJ.",
+    "3": "PRZEJ\u015aCIE DLA PIESZYCH",
+    "4": "PRZEJ\u015aCIE DLA PIESZYCH"
+  },
+  "stan_nawie": {
+    "0": "STAN NAWIERZCHNI - MOKRA",
+    "1": "STAN NAWIERZCHNI - MOKRA",
+    "2": "STAN NAWIERZCHNI - MOKRA",
+    "3": "STAN NAWIERZCHNI - SUCHA",
+    "4": "STAN NAWIERZCHNI - MOKRA"
+  },
+  "oznakowani": {
+    "0": "OZNAKOWANIE POZIOME - JEST",
+    "1": "OZNAKOWANIE POZIOME - JEST",
+    "2": "OZNAKOWANIE POZIOME - JEST",
+    "3": "OZNAKOWANIE POZIOME - JEST",
+    "4": "OZNAKOWANIE POZIOME - JEST"
+  },
+  "oswietleni": {
+    "0": "\u015aWIT, ZMROK",
+    "1": "\u015aWIAT\u0141O DZIENNE",
+    "2": "NOC - DROGA O\u015aWIETLONA",
+    "3": "\u015aWIAT\u0141O DZIENNE",
+    "4": "\u015aWIT, ZMROK"
+  },
+  "warunki_at": {
+    "0": "POCHMURNO",
+    "1": "OPADY DESZCZU",
+    "2": "OPADY DESZCZU",
+    "3": "DOBRE WARUNKI ATMOSFERYCZNE",
+    "4": "OPADY DESZCZU"
+  },
+  "wypadek": {
+    "0": "NAJECHANIE NA DRZEWO",
+    "1": "NAJECHANIE NA PIESZEGO",
+    "2": "NAJECHANIE NA PIESZEGO",
+    "3": "NAJECHANIE NA PIESZEGO",
+    "4": "NAJECHANIE NA PIESZEGO"
+  },
+  "ilosc_ucze": {
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1
+  },
+  "wiek_spraw": {
+    "0": 59.0,
+    "1": 25.0,
+    "2": 58.0,
+    "3": 35.0,
+    "4": 41.0
+  },
+  "pojazd_spr": {
+    "0": "SAMOCH\u00d3D OSOBOWY",
+    "1": "SAMOCH\u00d3D OSOBOWY",
+    "2": "MOTOROWER",
+    "3": "ROWER",
+    "4": "SAMOCH\u00d3D OSOBOWY"
+  },
+  "wiek_piesz": {
+    "0": 59,
+    "1": 27,
+    "2": 58,
+    "3": 35,
+    "4": 70
+  },
+  "lekko_rann": {
+    "0": 1,
+    "1": 0,
+    "2": 1,
+    "3": 0,
+    "4": 1
+  },
+  "ciezko_ran": {
+    "0": 0,
+    "1": 1,
+    "2": 0,
+    "3": 1,
+    "4": 0
+  },
+  "zabici": {
+    "0": 0,
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 0
+  }
+}
